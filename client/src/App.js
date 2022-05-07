@@ -20,7 +20,7 @@ useEffect(() => {
         <p>Loading...</p> 
       ) : (
         backendData.users.map((user, i) => (
-          <p key={i}>{user}</p>
+          <p key={i}>{user}</p> // map each user to a p tag and display
         ))
       )}
 
